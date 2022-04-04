@@ -1,0 +1,265 @@
+/* -------------------------------------------------------------------------- */
+/*                             cambiar color menu                             */
+/* -------------------------------------------------------------------------- */
+
+.navbar-dark{
+  background: #455279 !important;
+}
+.user-panel{
+    color: white !important;
+    padding-top: 15px;
+    border-bottom: 1px solid white !important;
+    border-top: 1px solid white !important;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                         PAGINA INICIO MIGAS DE PAN                         */
+/* -------------------------------------------------------------------------- */
+
+.active-tab{
+  background-color: #455279;
+  color: aliceblue;
+}
+
+.nav-pills .nav-link.activo{
+  background-color: #455279;
+  color: aliceblue;
+}
+.tab:hover{
+ 
+  color: #455279 !important;;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.nav-pills .nav-link.activo:hover{
+  background-color: #455279;
+  color:antiquewhite !important;
+  font-weight: 700;
+}
+body{
+  overflow: hidden;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                   FOOTER                                   */
+/* -------------------------------------------------------------------------- */
+.text-footer{
+  color: #455279 
+}
+.text-footer:hover{
+  color: #455279;
+  font-weight: 900; 
+}
+
+/* -------------------------------------------------------------------------- */
+/*                             color personalizado                            */
+/* -------------------------------------------------------------------------- */
+/* 
+.bg-purple-isaac, .btn-purple-isaac{
+  background-color:#727cb6!important;
+  color: white!important;
+}
+.card-purple-isaac{
+  border-top: 3px solid #727cb6;
+}
+.text-purple-isaac{
+  color: #727cb6;
+}
+.text-purple-isaac:hover{
+  color: #727cb6; 
+}
+.btn-purple-isaac:hover{
+  background-color:#730cc7!important;
+  color: white!important;
+} */
+
+/* -------------------------------------------------------------------------- */
+/*                            DESLIZADOR DE VIDEOS                            */
+/* -------------------------------------------------------------------------- */
+
+/* .slide-area li a figure{
+  position:relative;
+}
+.slide-area li a figure.activado::before{
+  position: absolute;
+  content: "\f144";
+  font-family: "Font Awesome 5 Free";
+  font-size: 2em;
+  color: white;
+  text-align: center;
+  width: 46px;
+  Line-height: 46px;
+  background: rgba(0, 0, 0, 0.7);
+  top: 50%;
+  margin-top: -23px;
+  left: 50%;
+  margin-left: -23px;
+  border-radius: 100%;
+  z-index: 1;
+}
+
+.slide-area li a figure.desactivado::before{
+  position: absolute;
+  content: "Activar suscripción";
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  width: 200px;
+  Line-height: 70px;
+  background: rgba(0, 0, 0, 0.7);
+  top: 50%;
+  margin-top: -35px;
+  left: 50%;
+  margin-left: -100px;
+  border-radius: 10%;
+  z-index: 1;
+
+} */
+/* .slide-area li a figure.activado img{
+  opacity: 1;
+}
+.slide-area li a figure.desactivado img{
+opacity: .5;
+}
+ */
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                                    FIRMA                                   */
+/* -------------------------------------------------------------------------- */
+/* 
+#signatureparent{
+  width: 300px;
+  border-bottom: 2px solid #333;
+} */
+
+
+.redondear{
+  border-radius:10px;
+}
+.a{
+  float: right;
+}
+.a:hover{
+  color: rgb(49, 68, 128);
+  animation: alternate-reverse;
+}
+/* .icon-login{
+  color: rgba(16, 101, 110, 0.667);
+  
+} */
+
+.espacio{
+  background: rgba(7, 10, 173, 0.4);
+  height: auto;
+  max-width: 100%;
+  padding: 1500px;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                                 RECUPERADO                                 */
+/* -------------------------------------------------------------------------- */
+
+.fondo{
+  z-index: -20;
+  overflow: hidden;
+}
+.t-login{
+  margin-left: 20px;
+}
+.textoBanner{
+  padding-left: 100px;
+  padding-top: 6%;
+}
+/* .centrarFormulario{
+  position: fixed;
+  overflow: hidden;
+  right: 10%;
+  left: 10%;
+  bottom: 15% !important;
+  top: 15% !important;
+ 
+} */
+
+.centrar{
+  margin-top: 10%;
+}
+/* .redondear{
+  border-radius:10px;
+} */
+/* .a{
+  float: right;
+} */
+/* .a:hover{
+  color: rgb(49, 68, 128);
+  animation: alternate-reverse;
+} */
+.icon-login{
+  color: rgba(16, 101, 110, 0.667);
+  
+}
+
+.posicionarAdelante{
+  padding-top: 100px;
+  align-items: center;
+  z-index: 1000;  
+  
+}
+.t-san-jose{
+  background: royalblue;
+  text-align: center;
+  font-style: italic;
+  line-height: 1.2;
+  font-size: 38px;
+  padding: 5px 10px;
+  
+}
+
+.t-dinamico{
+  font-size: 30px;
+  color: white;
+}
+
+/*=============================================
+TABLET HORIZONTAL (LG revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+ 
+
+}
+
+/*=============================================
+TABLET VERTICAL (MD revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+
+
+
+
+}
+
+/*=============================================
+MÓVIL HORIZONTAL (SM revisamos en 576px)
+=============================================*/
+
+@media (max-width:767px) and (min-width:576px){
+
+}
+
+
+/*=============================================
+MOVIL VERTICAL (revisamos en 320px)
+=============================================*/
+@media (max-width:575px){
+
+ 
+
+}
+
