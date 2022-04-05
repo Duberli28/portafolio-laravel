@@ -49,7 +49,7 @@
     </script>
 
    {{-- Font awesome --}}
-   <script src="https://kit.fontawesome.com/7ca4bf3348.js" crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/88ff795030.js" crossorigin="anonymous"></script>
 
 
     <!-- Jquery -->
